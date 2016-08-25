@@ -1,6 +1,7 @@
-# danonecbs
+# Danonecbs repository
 
-Front-End Repo
+# Please download all the files to test in your own computer, test via github server may not work properly.
+### The demo link will be posted here.
 
 Handbook digitalize list :
 - Homepage
