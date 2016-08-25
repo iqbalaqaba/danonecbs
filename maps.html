@@ -131,6 +131,9 @@
 				    </footer>
 			    </div>
 			</div>
+			<div class="text-center">
+				<button class="btn btn-raised btn-danger" data-toggle="modal" data-target="#myModals"> Emergency Contact List </button>
+			</div>
 		</div>
 		<div class="col-lg-4"></div>
 	</div>
@@ -159,12 +162,48 @@
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
-
   </div>
 </div>
+<!-- Modal Ends -->
+<!-- Modal -->
+<div id="myModals" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="color:black;"> <strong> Emergency Contact </strong> </h4>
+      </div>
+      <div class="modal-body">
+      	<p> Click his/her number to call.</p>
+       <div class="table-responsive">
+       	<table class="table table-bordered text-center" style="color:black;">
+       		<thead>
+	       		<tr>
+	       			<th class="text-center"> Name </th>
+	       			<th class="text-center"> Number </th>
+	       		</tr>
+       		</thead>
+       		<tbody>
+       			<tr>
+       				<td> Jhon Doe </td>
+       				<td> <a href="tel:+627171717"> +627171717 </a> </td>
+       			</tr>
+       			<tr>
+       				<td> Marry Doe </td>
+       				<td> <a href="tel:+627171715"> +627171715 </a> </td>
+       			</tr>
+       		</tbody>  
+       	</table>
+       </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
-	<!-- Javascript -->
-	<script src="material.min.js"></script>
-	<script src="ripples.min.js"></script>
+<!-- Modal Ends -->
+</div>
 </body>
 </html>
