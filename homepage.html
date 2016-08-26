@@ -1,0 +1,247 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title> Digital Handbooks </title>
+	<!-- Meta -->
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Material Design fonts -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-material-design.css">
+    <link href="http://fezvrasta.github.io/snackbarjs/dist/snackbar.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/ripples.min.css">
+
+    <!-- Javascript -->   
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script script="js/material.min.js"></script>
+    <script script="js/ripples.min.js"></script>
+    
+    <!-- Aditional -->
+    <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<style type="text/css">
+		body{
+			height: 100%;
+			width: 100%;
+			background-color: #ecf0f1;
+			color: #95a5a6;
+		}
+
+		.card{
+			padding: 5px 5px 5px 5px;
+		}
+
+		p{
+			color:#2c3e50;
+		}
+/* Header Styling  */
+	.header{
+		background-color:#009688;
+		color: white;
+		font-weight: bolder;
+		height: 50vh;
+	}
+	.headers{		
+		font-size: 3em;
+		font-weight: bolder;
+	} 
+  
+
+	.well{
+		background-color: #ffffff;
+	}
+	.card .card-content{
+		position: 0;
+	}
+  .navbar{
+    min-height: 70px;
+  }
+  .footer{
+    height: 50px;
+    background-color:#009688;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+	</style>
+</head>
+<body>
+<div class="header">
+<!-- Navbar -->
+<div class="container-fluid">
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav text-center">
+        <li class="active"><a href="#"> Index </a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="info.html">Do & Don't</a></li>
+        <li><a href="venue.html">Hotel Information</a></li>
+        <li><a href="maps.html">Maps</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Navbar End Here -->
+<!-- Title -->
+<div class="container-fluid" style="padding:50px">
+  <div class="row">
+    <div class="col-lg-12 text-center" >
+      <h1 style="text-transform:uppercase; font-weight:bolder; font-size:37px;"> Danone CBS Digital Handbook </h1>
+      <p style="padding-bottom:5px"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Title Ends here -->
+<div class="row">
+  <div class="col-lg-12">
+  <!-- Card Start here -->
+    <div class="col-lg-6 col-lg-offset-3">
+      <div class="card" style="margin-top:5px; margin-bottom:10px;">
+          <div class="card-height-indicator"></div>
+          <div class="card-content">
+              <div class="card-body">
+                <img class="img-responsive" src="pics.jpg" alt="hotel">
+                <h3> Maps </h3>
+                <hr/>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+              <footer class="card-footer" style="margin-left:15px;">
+                <a href="maps.html" class="btn btn-raised btn-primary" role="button"> Learn more </a>                
+            </footer>
+          </div>
+      </div>
+    </div>
+    <!-- Card Ends here -->
+    <!-- Card Start here -->
+    <div class="col-lg-6 col-lg-offset-3">
+      <div class="card" style="margin-top:5px; margin-bottom:10px;">
+          <div class="card-height-indicator"></div>
+          <div class="card-content">
+              <div class="card-body">
+                <img class="img-responsive" src="pics.jpg" alt="hotel">
+                <h3> Hotel Information </h3>
+                <hr/>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+              <footer class="card-footer" style="margin-left:15px;">
+                <a href="venue.html" class="btn btn-raised btn-primary" role="button"> Learn more </a>                
+            </footer>
+          </div>
+      </div>
+    </div>
+    <!-- Card Ends here -->
+    <!-- Card Start here -->
+    <div class="col-lg-6 col-lg-offset-3">
+      <div class="card" style="margin-top:5px; margin-bottom:10px;">
+          <div class="card-height-indicator"></div>
+          <div class="card-content">
+              <div class="card-body">
+                <img class="img-responsive" src="pics.jpg" alt="hotel">
+                <h3> Participant List </h3>
+                <hr/>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+              <footer class="card-footer" style="margin-left:15px;">
+                <a href="#" class="btn btn-raised btn-primary" role="button"> Learn more </a>                
+            </footer>
+          </div>
+      </div>
+    </div>
+    <!-- Card Ends here -->
+    <!-- Card Start here -->
+    <div class="col-lg-6 col-lg-offset-3">
+      <div class="card" style="margin-top:5px; margin-bottom:10px;">
+          <div class="card-height-indicator"></div>
+          <div class="card-content">
+              <div class="card-body">
+                <img class="img-responsive" src="pics.jpg" alt="hotel">
+                <h3> Do & Don't Guides </h3>
+                <hr/>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+              <footer class="card-footer" style="margin-left:15px;">
+                <a href="info.html" class="btn btn-raised btn-primary" role="button"> Learn more </a>                
+            </footer>
+          </div>
+      </div>
+    </div>
+    <!-- Card Ends here -->
+    <div class="text-center">
+        <button class="btn btn-raised btn-danger" data-toggle="modal" data-target="#myModals"> Emergency Contact List </button>
+      </div>
+    <div class="col-lg-4"></div>
+  </div>
+</div>
+<!-- Modal -->
+<div id="myModals" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="color:black;"> <strong> Emergency Contact </strong> </h4>
+      </div>
+      <div class="modal-body">
+        <p> Click his/her number to call.</p>
+       <div class="table-responsive">
+        <table class="table table-bordered text-center" style="color:black;">
+          <thead>
+            <tr>
+              <th class="text-center"> Name </th>
+              <th class="text-center"> Number </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> Jhon Doe </td>
+              <td> <a href="tel:+627171717"> +627171717 </a> </td>
+            </tr>
+            <tr>
+              <td> Marry Doe </td>
+              <td> <a href="tel:+627171715"> +627171715 </a> </td>
+            </tr>
+          </tbody>  
+        </table>
+       </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h5> Copyright 2016 WTM Event Management</h5>
+</div>
+<!-- Modal Ends -->
+	<!-- Javascript -->
+	<script src="js/material.min.js"></script>
+	<script src="js/ripples.min.js"></script>
+</body>
+</html>
