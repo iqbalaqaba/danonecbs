@@ -2,6 +2,8 @@
 
 ### Please download all the files to test in your computer, test via github server may not work properly.
 
+Demo Link : http://danonecbs.werkudaratravel.com
+
 Handbook digitalize list :
 - Homepage
 - Teams Contact will show in the end of the every page(s)
