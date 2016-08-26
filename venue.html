@@ -15,17 +15,16 @@
 	<!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-material-design.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-material-design.css">
     <link href="http://fezvrasta.github.io/snackbarjs/dist/snackbar.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/ripples.min.css">
+    <link rel="stylesheet" type="text/css" href="ripples.min.css">
 
     <!-- Javascript -->   
-	<script src="http://maps.googleapis.com/maps/api/js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script script="js/material.min.js"></script>
-    <script script="js/ripples.min.js"></script>
+    <script script="material.min.js"></script>
+    <script script="ripples.min.js"></script>
     
     <!-- Aditional -->
     <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
@@ -63,15 +62,60 @@
 	.card .card-content{
 		position: 0;
 	}
+
+	.navbar{
+	padding-top: 10px;
+    min-height: 70px;
+  }
+  	.navbar-defaults{
+  		background-color: #3F51B5;
+  	}
+  
+  .footer{
+    height: 50px;
+    background-color:#3F51B5;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
+  }
+
 	</style>
 </head>
 <body>
 <div class="header">
+<!-- Navbar -->
+<div class="container-fluid">
+<div class="navbar navbar-defaults navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav text-center">
+        <li><a href="index.html"> Index </a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="info.html">Do & Don't</a></li>
+        <li class="active"><a href="venue.html">Hotel Information</a></li>
+        <li><a href="maps.html">Maps</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Navbar End Here -->
+<!-- Title -->
 <div class="row">
-	<div class="col-lg-12" style="padding:0px 0px 0px 30px">
-		<h2> <strong> Hotel Information </strong> </h2>
-	</div>	
-</div> 
+    <div class="col-lg-12" style="padding-top:60px; padding-left:40px;">
+      <h1> <strong> Hotel Info </strong> </h1>
+	</div>
+</div>
+<!-- Title Ends here -->
 <div class="row">
 	<div class="col-lg-12">
 		<div class="col-lg-6 col-lg-offset-3">
@@ -138,9 +182,9 @@
   </div>
 </div>
 <!-- Modal Ends -->
+<div class="footer">
+  <h5> Copyright 2016 WTM Event Management</h5>
 </div>
-	<!-- Javascript -->
-	<script src="js/material.min.js"></script>
-	<script src="js/ripples.min.js"></script>
+</div>
 </body>
 </html>
