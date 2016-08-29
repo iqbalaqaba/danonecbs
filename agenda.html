@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agenda</title><!-- Meta -->
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- Material Design fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"><!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity=
+	"sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="bootstrap-material-design.css" rel="stylesheet" type="text/css">
+	<link href="http://fezvrasta.github.io/snackbarjs/dist/snackbar.min.css" rel="stylesheet">
+	<link href="ripples.min.css" rel="stylesheet" type="text/css"><!-- Javascript -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+	</script>
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js">
+	</script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+	</script>
+	<script>
+	</script>
+	<script>
+	</script><!-- Aditional -->
+	<link color="#4078c0" href="https://assets-cdn.github.com/pinned-octocat.svg" rel="mask-icon">
+	<link href="https://assets-cdn.github.com/favicon.ico" rel="icon" type="image/x-icon">
+	<style type="text/css">
+	       body{
+	           height: 100%;
+	           width: 100%;
+	           background-color: #ecf0f1;
+	           color: #95a5a6;
+	       }
+
+	       .card{
+	           padding: 5px 5px 5px 5px;
+	       }
+
+	       p{
+	           color:#2c3e50;
+	       }
+	 /* Header Styling */
+	   .header{
+	       background-color: #03a9f4;
+	       color: white;
+	       font-weight: bolder;
+	       height: 40vh;
+	   }
+	   .headers{       
+	       font-size: 3em;
+	       font-weight: bolder;
+	   }
+	   .well{
+	       background-color: #ffffff;
+	   }
+	   .card .card-content{
+	       position: 0;
+	   }
+
+	   .navbar{
+	   padding-top: 10px;
+	   min-height: 70px;
+	 }
+	   .navbar-defaults{
+	       background-color:  #03a9f4;
+	   }
+
+	 .footer{
+	   height: 50px;
+	   background-color: #03a9f4;
+	   color: white;
+	   font-weight: lighter;
+	   text-align: center;
+	   padding-top: 10px;
+	 }
+
+	 a:hover,a:focus,.panel-body{
+	 	text-decoration: none;
+	 	color:#f5f5f5;	;
+	 }
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<!-- Navbar -->
+<div class="container-fluid">
+  <div class="navbar navbar-defaults navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav text-center">
+          <li><a href="index.html"> Index </a></li>
+          <li class="active"><a href="agenda.html"> Agenda </a></li>
+          <li><a href="participant.html">Participant List</a></li>
+          <li><a href="maps.html">Maps</a></li>
+          <li><a href="info.html">Do & Don't</a></li>
+          <li><a href="venue.html">Hotel Information</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Navbar End Here -->
+		<!-- Title -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12" style="padding-top:60px; padding-left:30px;">
+					<h1><strong>Agenda</strong></h1>
+				</div>
+			</div>
+		</div><!-- Title Ends here -->
+		<div class="container-fluid text-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="col-lg-6 col-lg-offset-3">
+						<div class="card" style="margin-top:5px; margin-bottom:10px;">
+							<div class="card-height-indicator"></div>
+							<div class="card-content">
+								<div class="card-body">
+									<div class="panel-group" id="accordion">
+										<div class="panel panel-default">
+											<div class="panel-heading" style="background-color:#03a9f4; color:#f5f5f5;">
+												<h5 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapse1">
+													<strong> Agenda Day 1  </strong>
+												</a></h5>
+											</div>
+											<div class="panel-collapse collapse in" id="collapse1">
+												<div class="panel-body text-center" style="background-color:#e8eaf6">
+													<p class="text-center"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #3f51b5">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #3f51b5">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #3f51b5">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #3f51b5">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #3f51b5">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+														Agenda Example 3
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="panel panel-default">
+											<div class="panel-heading" style="background-color:#03a9f4; color:#f5f5f5;">
+												<h5 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapse2">
+													<strong> Agenda Day 2  </strong>
+												</a></h5>
+											</div>
+											<div class="panel-collapse collapse" id="collapse2">
+												<div class="panel-body" style="background-color:#e0f2f1">
+												<p class="text-center"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #009688">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #009688">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #009688">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #009688">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #009688">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="panel panel-default">
+											<div class="panel-heading" style="background-color:#03a9f4; color:#f5f5f5;">
+												<h5 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapse3">
+													<strong> Agenda Day 3  </strong>
+												</a></h5>
+											</div>
+											<div class="panel-collapse collapse" id="collapse3" style="background-color:#fff8e1">
+												<div class="panel-body">
+												<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #ffc107">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #ffc107">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #ffc107">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #ffc107">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+													<p class="text-center" style="padding-top:10px;"> 08.00 - 11.00 </p>
+													<div class="panel panel-default" style="background-color: #ffc107">
+														<div class="panel-body">
+															Agenda Example 1
+															<br>
+															Agenda Example 2
+															<br>
+															Agenda Example 3
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="text-center">
+							<button class="btn btn-raised btn-danger" data-target="#myModals" data-toggle="modal">Emergency Contact List</button>
+						</div>
+					</div>
+					<div class="col-lg-4"></div>
+				</div>
+			</div>
+		</div><!-- Modal -->
+		<div class="modal fade" id="myModals" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal" type="button">&times;</button>
+						<h4 class="modal-title" style="color:black;"><strong>Emergency Contact</strong></h4>
+					</div>
+					<div class="modal-body">
+						<p>Click his/her number to call.</p>
+						<div class="table-responsive">
+							<table class="table table-bordered text-center" style="color:black;">
+								<thead>
+									<tr>
+										<th class="text-center">Name</th>
+										<th class="text-center">Number</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Jhon Doe</td>
+										<td>
+											<a href="tel:+627171717">+627171717</a>
+										</td>
+									</tr>
+									<tr>
+										<td>Marry Doe</td>
+										<td>
+											<a href="tel:+627171715">+627171715</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+					</div>
+				</div>
+			</div>
+		</div><!-- Modal Ends -->
+		<div class="footer">
+			<h5>Copyright 2016 WTM Event Management</h5>
+		</div>
+	</div>
+</body>
+</html>
