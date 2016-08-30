@@ -1,8 +1,8 @@
 # Danonecbs Digital Handbook repository
 
-### Please download all the files to test in your computer, test via github server may not work properly.
+### Demo Link : http://danonecbs.werkudaratravel.com
 
-Demo Link : http://danonecbs.werkudaratravel.com
+Website version : v.2.0
 
 Danone Handbook Digital Contents :
 - Homepage
